@@ -1,0 +1,21 @@
+{
+    "extends": [
+        "config:js-app"
+    ],
+    "labels": [
+        "dependencies"
+    ],
+    "packageRules": [
+        {
+            "updateTypes": [
+                "lockFileMaintenance"
+            ],
+            "schedule": [
+                "every weekday"
+            ]
+        }
+    ],
+    "lockFileMaintenance": {
+        "enabled": true
+    }
+}
